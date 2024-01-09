@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+main {
+  padding: 40px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image, .video {
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+video {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animated-text {
+            text-align: center;
+            font-size: 1.5em;
+            animation: color-change 5s infinite;
+        }
+
+        /* Animasi warna teks */
+        @keyframes color-change {
+            0% { color: #e74c3c; }
+            25% { color: #f1c40f; }
+            50% { color: #3498db; }
+            75% { color: #2ecc71; }
+            100% { color: #e74c3c; }
+        }
