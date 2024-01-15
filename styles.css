@@ -113,3 +113,10 @@ a {
             75% { color: #2ecc71; }
             100% { color: #e74c3c; }
         }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
